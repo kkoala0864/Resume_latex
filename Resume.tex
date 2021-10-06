@@ -17,7 +17,7 @@
 
 \begin{document}
 \thispagestyle{empty} % this page has no header
-\name{Neil Huang\\[12pt]}% the \\[12pt] adds a blank line after name
+\name{Yao-Chih Huang(Neil Huang)\\[12pt]}% the \\[12pt] adds a blank line after name
 
 \address{Email: kkoala0864@gmail.com \\ Mobile: +886-987-106-446}
 
@@ -25,33 +25,45 @@
 
 \vspace{0.2in}
 \section{\centerline{WORK EXPERIENCE}}
+%\rule{\textwidth}{1mm}
+\noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
 \vspace{8pt}
 {\bf Synology}  \hfill Taipei, Taiwan\\
 {\sl Software Engineer / Senior Software Engineer       \hfill Oct 2014 - Nov 2018 / Jan 2019 - Present}
 
-\begin{itemize} \itemsep -2pt % reduce space between items
-   \item {\bf ARM Based SOC Bring Up:}
-   \item {\bf Cross-Platform Toolchain Unify:} 
-   \item {\bf VPN Service:} 
-   \item {\bf Cloud Service:} 
+\begin{itemize} \itemsep +5pt % reduce space between items
+   \item {\bf Cloud Directory Serivce}\\
+   Building directory service on Synology Cloud Platform (C2) from scratch.
+   Construct service backend on Kubernetes.
+   Design user agent which download ldap service data from server to end user and provide authentication service as LDAP server.
+   Implement SRP(Secure Remote Password) protocol as authentication algorithm to avoid store user password at backend.
+   \item {\bf VPN Service} Maintain Synology VPN Service Application, including performance tunning, trouble shooting.
+   \item {\bf Cross-Platform Toolchain Unify}\\
+   Unify ARM and PowerPC platform toolchain and toolchain related issue troubleshooting.
+   \item {\bf ARM Based SOC Bring Up}\\
+   Marvell and STMicroelectronics SOC bring up including kernel porting, hardware function implementation, performance tuning and relative bug fix. Deliver Synology DS115, RS815, DS216Play Model.
 \end{itemize}
 
 {\bf Marvell Semiconductor}  \hfill Hsinchu, Taiwan \\ 
 {\sl Software Engineer \hfill     Oct 2011 - Jun 2014}
 
-\begin{itemize} \itemsep -2pt
-  \item {\bf ARMv8 Architecture Simulator:}
-  \item {\bf ActionScript Virtual Machine:}
-  \item {\bf Toolchain Testing:}
+\begin{itemize} \itemsep +5pt
+  \item {\bf ARMv8 Architecture Simulator}\\
+  Implement ARMv8 Instruction-Level accurate simulator from scratch. Design test frameword that generate test pattern and compare with golden model (ARM Fast Model) at runtime to verify simulator accuracy.
+  \item {\bf ActionScript Virtual Machine}\\
+  Porting Adobe AVM(ActionScript Virtual Machine) to ARM Target. Resolving issue to make AVM can execute ActionScript byte code on ARM based development board and passing regression test.
 \end{itemize} \vspace{-6pt}
 
 \vspace{0.2in}
 \section{\centerline{EDUCATION}}
+\noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
 \vspace{8pt}
-{\bf National Chiao Tung University} \hspace{0.2in} \hfill Hsinchu, Taiwan \\
-{\sl Master in Computer Science \hspace{0.2in} \hfill Sep 2008 - Sep 2010} \\
-THESIS - File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine
+{\sl M.S., Computer Science \hspace{0.2in} \hfill Sep 2008 - Sep 2010} \\
+{National Chiao Tung University} \hspace{0.2in} \hfill Hsinchu, Taiwan \\
+Thesis: File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine
 
+{\sl B.S., Computer Science \hspace{0.2in} \hfill Sep 2003 - Jun 2008} \\
+{Fu-Jen Catholic University} \hspace{0.2in} \hfill Taipei, Taiwan \\
 \end{resume}
 \end{document}
 
