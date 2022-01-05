@@ -23,15 +23,23 @@
 
 \begin{resume}
 
-\vspace{0.2in}
+\vspace{0.1in}
 \section{\centerline{WORK EXPERIENCE}}
 %\rule{\textwidth}{1mm}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{8pt}
+\vspace{6pt}
 {\bf Synology}  \hfill Taipei, Taiwan\\
-{\sl Software Engineer / Senior Software Engineer       \hfill Oct 2014 - Dec 2018 / Jan 2019 - Present}
+{\sl Software Engineer / Senior Software Engineer       \hfill Aug 2014 - Dec 2018 / Jan 2019 - Present}
 
-\begin{itemize} \itemsep +5pt
+\begin{itemize} \itemsep +4pt
+   \item {\bf Cross-Platform Toolchain Unify}\\
+   Designing cross-platform toolchain building flow to apply security patch, avoid Synology product to suffer security attack.
+   Also unify ARM and PowerPC platform toolchain and related issue fix.
+
+   \item {\bf ARM Based SOC Bring Up}\\
+   Marvell and STMicroelectronics SOC bring up, including kernel porting, hardware function implementation, performance tuning and relative bug fix.
+   Deliver Synology DS115, RS815, DS216Play Model.
+
    \item {\bf Cloud Directory Serivce}\\
    Developing directory service on Synology cloud platform (C2) from scratch, including survey and design product specification, construct service backend on Kubernetes, and design tool to make user easy to use service.
    Designing user agent which downloads LDAP server data from cloud to end user and provides local authentication service.
@@ -40,17 +48,12 @@
    \item {\bf VPN Service}\\
    Maintaining Synology VPN service application, including troubleshooting and performance tuning make application 70\% speed up.
 
-   \item {\bf Cross-Platform Toolchain Unify}\\
-   Designing cross-platform toolchain building flow to apply security patch, avoid Synology product to suffer security attack. Also unify ARM and PowerPC platform toolchain and related issue fix.
-
-   \item {\bf ARM Based SOC Bring Up}\\
-   Marvell and STMicroelectronics SOC bring up, including kernel porting, hardware function implementation, performance tuning and relative bug fix. Deliver Synology DS115, RS815, DS216Play Model.
 \end{itemize}
 
 {\bf Marvell Semiconductor}  \hfill Hsinchu, Taiwan\\ 
 {\sl Software Engineer \hfill     Oct 2011 - Jun 2014}
 
-\begin{itemize} \itemsep +5pt
+\begin{itemize} \itemsep +4pt
   \item {\bf ARMv8 Architecture Simulator}\\
   Implementing ARMv8 Instruction-Level accurate simulator from scratch.
   Designing test framework that generate test pattern and compare with golden model (ARM Fast Model) at runtime to verify simulator accuracy.
@@ -58,12 +61,17 @@
   \item {\bf ActionScript Virtual Machine}\\
   Porting Adobe AVM(ActionScript Virtual Machine) to ARM Target.
   Resolving issue to make AVM can execute ActionScript byte code on ARM based development board and passing regression test.
+
+  \item {\bf Marvell Compiler Toolchain Testing On Android Platform}\\
+  Through building Android system image by every Marvell toolchain release version to test Marvell compiler toolchain.
+  Troubleshooting to make system image can execute on ARM based development board successfully.
+
 \end{itemize} \vspace{-6pt}
 
 \vspace{0.2in}
 \section{\centerline{EDUCATION}}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{8pt}
+\vspace{6pt}
 {\sl M.S., Computer Science \hspace{0.2in} \hfill Sep 2008 - Sep 2010} \\
 {National Chiao Tung University} \hspace{0.2in} \hfill Hsinchu, Taiwan \\
 Thesis: File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine
