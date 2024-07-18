@@ -13,17 +13,17 @@
 \pagestyle{fancy}     % set pagestyle for document
 \rhead{ {\it Neil Huang}\\{\it p. \thepage} } % put text in header (right side)
 \cfoot{}                                     % the foot is empty
-\topmargin=-0.5in % start text higher on the page
+\topmargin=-1.3in % start text higher on the page
 
 \begin{document}
 \thispagestyle{empty} % this page has no header
-\name{Yao-Chih Huang(Neil Huang)\\[12pt]}% the \\[12pt] adds a blank line after name
+\name{Yao-Chih Huang(Neil Huang)\\[2pt]}% the \\[12pt] adds a blank line after name
 
 \address{Email: kkoala0864@gmail.com}
 
 \begin{resume}
 
-\vspace{0.1in}
+\vspace{0.01in}
 \section{\centerline{WORK EXPERIENCE}}
 %\rule{\textwidth}{1mm}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
@@ -33,20 +33,21 @@
 
 \begin{itemize} \itemsep +4pt
    \item {\bf Cross-Platform Toolchain Unify}\\
-   Designing cross-platform toolchain building flow to apply security patch, avoid Synology product to suffer security attack.
-   Also unify ARM and PowerPC platform toolchain and related issue fix.
+   Designed and implemented a cross-platform toolchain building flow for applying security patches to protect Synology products from security attacks.
+   Unified toolchains for ARM and PowerPC platforms, addressing and resolving related issues.
 
    \item {\bf ARM Based SOC Bring Up}\\
-   Marvell and STMicroelectronics SOC bring up, including kernel porting, hardware function implementation, performance tuning and relative bug fix.
-   Deliver Synology DS115, RS815, DS216Play Model.
+   Bring up Marvell and STMicroelectronics SoCs, including kernel porting, hardware function implementation, performance tuning, and bug fixes.
+   Successfully delivered Synology NAS product DS115, RS815, and DS216Play.
 
    \item {\bf Cloud Directory Serivce}\\
-   Developing directory service on Synology cloud platform (C2) from scratch, including survey and design product specification, construct service backend on Kubernetes, and design tool to make user easy to use service.
-   Designing user agent which downloads LDAP server data from cloud to end user and provides local authentication service.
-   Implementing SRP (Secure Remote Password) protocol as authentication algorithm to avoid storing user password at service backend.
+   Developed a directory service on the Synology C2 cloud platform from scratch, including surveying and designing product specifications. Constructed the service backend on Kubernetes and designed user-friendly tools for service accessibility. Designed a user agent to download LDAP server data from the cloud to end users, providing local authentication services. Implemented the SRP (Secure Remote Password) protocol as the authentication algorithm to ensure no user passwords are stored at the service backend.
 
    \item {\bf VPN Service}\\
    Maintaining Synology VPN service application, including troubleshooting and performance tuning make application 70\% speed up.
+
+   \item {\bf Backup Service}\\
+   Developed a backup service application for Synology NAS products, enabling comprehensive backup solutions for user computers and servers. Implemented disaster recovery features to ensure data integrity and restoration capabilities from the Synology server.
 
 \end{itemize}
 
@@ -68,16 +69,14 @@
 
 \end{itemize} \vspace{-6pt}
 
-\vspace{0.2in}
+\vspace{0.1in}
 \section{\centerline{EDUCATION}}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{6pt}
+\vspace{3pt}
 {\sl M.S., Computer Science \hspace{0.2in} \hfill Sep 2008 - Sep 2010} \\
 {National Chiao Tung University} \hspace{0.2in} \hfill Hsinchu, Taiwan \\
 Thesis: File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine
 
-{\sl B.S., Computer Science \hspace{0.2in} \hfill Sep 2003 - Jun 2008} \\
-{Fu-Jen Catholic University} \hspace{0.2in} \hfill Taipei, Taiwan \\
 \end{resume}
 \end{document}
 
