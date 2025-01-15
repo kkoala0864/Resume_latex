@@ -17,65 +17,68 @@
 
 \begin{document}
 \thispagestyle{empty} % this page has no header
-\name{Yao-Chih Huang(Neil Huang)\\[2pt]}% the \\[12pt] adds a blank line after name
+\name{Yao-Chih Huang(Neil Huang)\\[1pt]}% the \\[12pt] adds a blank line after name
 
 \address{Email: kkoala0864@gmail.com}
 
 \begin{resume}
 
-\vspace{0.01in}
+\vspace{0.05in}
 \section{\centerline{WORK EXPERIENCE}}
-%\rule{\textwidth}{1mm}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{6pt}
-{\bf Synology}  \hfill Taipei, Taiwan\\
-{\sl Software Engineer / Senior Software Engineer       \hfill Aug 2014 - Dec 2018 / Jan 2019 - Present}
+\vspace{2pt}
+{\bf Marvell Semiconductor}  \hfill Hsinchu, Taiwan\vspace{3pt}\\
+{\bf ARM Simulator Developer \hfill     Oct 2011 - Jun 2014}\\
 
-\begin{itemize} \itemsep +7pt
-   \item {\bf Project Leader for Database Backup in Active Backup Service}\\
-   Led the development of database backup solutions within the Active Backup service, providing support for Oracle and Microsoft SQL Server databases.
+\begin{itemize} \itemsep +8pt
+  \item {\bf ARMv8 Architecture Simulator}\vspace{3pt}\\
+  Developed an ARMv8 Instruction-Level accurate simulator from scratch.
+  Designed a test framework that generates test patterns and compares with golden model (ARM Fast Model) at runtime to verify simulator accuracy.
+
+  \item {\bf ActionScript Virtual Machine}\vspace{3pt}\\
+  Porting Adobe AVM (ActionScript Virtual Machine) to ARM Target.
+  Resolving issues to make AVM execute ActionScript bytecode on ARM based development board and passed regression tests.
+\end{itemize}
+
+\vspace{2pt}
+{\bf Synology}  \hfill Taipei, Taiwan\vspace{3pt}\\
+{\bf System Software Developer \hfill Aug 2014 - Present}\\
+
+\begin{itemize} \itemsep +8pt
+   \item {\bf Cross-Platform Toolchain Unify}\vspace{3pt}\\
+   Designed and implemented a cross-platform toolchain building flow to apply security patches to protect Synology products from security attacks.
+   Unified toolchains for ARM and PowerPC platforms, resolving related issues.
+
+   \item {\bf ARM Based SOC Bring Up}\vspace{3pt}\\
+   Led the bring-up of Marvell and STMicroelectronics SoCs, including the kernel porting, hardware function implementation, performance tuning, and bug resolution.
+   Delivered Synology NAS products DS115, RS815, and DS216Play ahead of schedule with optimized performance.
+
+   \item {\bf Project Leader for Database Backup in Active Backup Service}\vspace{3pt}\\
+   Led the development of database backup solutions within the Active Backup service, providing support for both Oracle and Microsoft SQL Server databases.
    Designed and implemented the service backend on Synology NAS products, including the backup engine, and data integrity verification.
    Oversaw the design and integration of backup strategies while aligning the efforts of cross-functional teams to deliver high-quality solutions.
    Coordinated and managed tasks across multiple teams to ensure seamless collaboration and timely delivery of project milestones.
 
-   \item {\bf Cross-Platform Toolchain Unify}\\
-   Designed and implemented a cross-platform toolchain building flow for applying security patches to protect Synology products from security attacks.
-   Unified toolchains for ARM and PowerPC platforms, resolving related issues.
+   \item {\bf VPN Service}\vspace{3pt}\\
+   Maintained a VPN service application, focusing on troubleshooting and performance analysis. Achieved a 70\% performance improvement by identifying code hotspots and optimizing critical components through C++ refactoring.
 
-   \item {\bf ARM Based SOC Bring Up}\\
-   Led the bring-up of Marvell and STMicroelectronics SoCs, including kernel porting, hardware function implementation, performance tuning, and bug resolution.
-   Delivered Synology NAS products DS115, RS815, and DS216Play ahead of schedule with optimized performance.
-
-   \item {\bf Cloud Directory Service}\\
-   Developed a directory service on the Synology C2 cloud platform from scratch, including surveying and designing product specifications. Constructed the service backend on Kubernetes and designed user-friendly tools for service accessibility.
+   \item {\bf Cloud Directory Service}\vspace{3pt}\\
+   Developed a directory service on the Synology C2 cloud platform from scratch, including surveying and designing product specifications. Built the service backend on Kubernetes and designed user-friendly tools for service accessibility.
    Designed a user agent to download LDAP server data from the cloud to end users, providing local authentication services.
    Implemented the SRP (Secure Remote Password) protocol as the authentication algorithm to ensure no user passwords are stored at the service backend.
 
-   \item {\bf VPN Service}\\
-   Maintained Synology VPN service application, including troubleshooting and improved application performance by 70\%.
-
 \end{itemize}
 
-{\bf Marvell Semiconductor}  \hfill Hsinchu, Taiwan\\ 
-{\sl Software Engineer \hfill     Oct 2011 - Jun 2014}
-
-\begin{itemize} \itemsep +7pt
-  \item {\bf ARMv8 Architecture Simulator}\\
-  Implemented ARMv8 Instruction-Level accurate simulator from scratch.
-  Designing test framework that generate test pattern and compare with golden model (ARM Fast Model) at runtime to verify simulator accuracy.
-
-  \item {\bf ActionScript Virtual Machine}\\
-  Porting Adobe AVM(ActionScript Virtual Machine) to ARM Target.
-  Resolving issue to make AVM can execute ActionScript byte code on ARM based development board and passing regression test.
-\end{itemize} \vspace{-6pt}
-
-\vspace{0.1in}
+\vspace{0.2in}
 \section{\centerline{EDUCATION}}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{3pt}
-{\sl M.S., Computer Science \hspace{0.2in} \hfill Sep 2008 - Sep 2010} \\
-{National Chiao Tung University} \hspace{0.2in} \hfill Hsinchu, Taiwan \\
-Thesis: File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine
+{\sl M.S., Computer Science \hspace{0.1in} \hfill Sep 2008 - Sep 2010}\vspace{3pt}\\
+{National Chiao Tung University} \hspace{0.1in} \hfill Hsinchu, Taiwan\vspace{3pt}\\
+{\bf Thesis:} File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine\vspace{3pt}\\
+{\bf Industry-Academia Collaboration Project:} Collaborated with IASolution to develop a project focused on converting Java bytecode to LLVM IR using the LLVM library.\\
+\\
+{\sl B.S., Computer Science \hspace{0.1in} \hfill Sep 2003 - Sep 2008}\vspace{3pt}\\
+{Fu Jen Catholic University} \hspace{0.1in} \hfill Taipei, Taiwan\vspace{3pt}\\
 
 \end{resume}
 \end{document}
