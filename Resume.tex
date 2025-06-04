@@ -26,59 +26,47 @@
 \vspace{0.05in}
 \section{\centerline{WORK EXPERIENCE}}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
-\vspace{2pt}
-{\bf Marvell Semiconductor}  \hfill Hsinchu, Taiwan\vspace{3pt}\\
-{\bf ARM Simulator Developer \hfill     Oct 2011 - Jun 2014}\\
+\vspace{1pt}
+{\bf Synology - Taipei, Taiwan}  \hfill System Software Developer \textbar{} Aug 2014 - Present\vspace{3pt}\\
 
-\begin{itemize} \itemsep +8pt
-  \item {\bf ARMv8 Architecture Simulator}\vspace{3pt}\\
-  Developed an ARMv8 Instruction-Level accurate simulator from scratch.
-  Designed a test framework that generates test patterns and compares with golden model (ARM Fast Model) at runtime to verify simulator accuracy.
+\begin{itemize} \itemsep +6pt
+\item {\bf Active Backup - Database Module (Project Lead) }\vspace{3pt}\\
+Launched Oracle \& MS SQL backups in Active Backup, protecting 5 PB+ of customer data. Grew attach rate 12\% by engineering a C++ backup engine with end-to-end integrity checks and orchestrating 4 cross-functional teams.
 
-  \item {\bf ActionScript Virtual Machine}\vspace{3pt}\\
-  Porting Adobe AVM (ActionScript Virtual Machine) to ARM Target.
-  Resolving issues to make AVM execute ActionScript bytecode on ARM based development board and passed regression tests.
-\end{itemize}
+\item {\bf Scale-Out Storage }\vspace{3pt}\\
+Architected and delivered a scale-out storage system supporting up to 60 nodes and 1.2 PB, achieving 99.9999\% availability through a distributed metadata service that guarantees 100\% data integrity and zero planned downtime
 
-\vspace{2pt}
-{\bf Synology}  \hfill Taipei, Taiwan\vspace{3pt}\\
-{\bf System Software Developer \hfill Aug 2014 - Present}\\
+\item {\bf C2 Cloud Directory Service }\vspace{3pt}\\
+Shipped LDAP-compatible cloud directory in 9 months, architecting Golang/K8s backend and SRP-based agent that syncs 3M+ accounts daily while storing zero passwords server-side
 
-\begin{itemize} \itemsep +8pt
-   \item {\bf Cross-Platform Toolchain Unify}\vspace{3pt}\\
-   Designed and implemented a cross-platform toolchain building flow to apply security patches to protect Synology products from security attacks.
-   Unified toolchains for ARM and PowerPC platforms, resolving related issues.
+\item {\bf Cross-Platform Toolchain Unification}\vspace{3pt}\\
+Cut CVE patch rollout time 88\% by designing a single automated build flow that merges ARM \& PowerPC toolchains and auto-applies over 50 security patches/year.
 
-   \item {\bf ARM Based SOC Bring Up}\vspace{3pt}\\
-   Led the bring-up of Marvell and STMicroelectronics SoCs, including the kernel porting, hardware function implementation, performance tuning, and bug resolution.
-   Delivered Synology NAS products DS115, RS815, and DS216Play ahead of schedule with optimized performance.
+\item {\bf ARM Based SOC Bring-Up}\vspace{3pt}\\
+Led the bring-up of Marvell and STMicroelectronics SoCs, including the kernel porting, hardware function implementation, performance tuning, and bug resolution.
+Delivered Synology NAS products DS115, RS815, and DS216Play ahead of schedule with optimized performance.
 
-   \item {\bf Project Leader for Database Backup in Active Backup Service}\vspace{3pt}\\
-   Led the development of database backup solutions within the Active Backup service, providing support for both Oracle and Microsoft SQL Server databases.
-   Designed and implemented the service backend on Synology NAS products, including the backup engine, and data integrity verification.
-   Oversaw the design and integration of backup strategies while aligning the efforts of cross-functional teams to deliver high-quality solutions.
-   Coordinated and managed tasks across multiple teams to ensure seamless collaboration and timely delivery of project milestones.
-
-   \item {\bf VPN Service}\vspace{3pt}\\
-   Maintained a VPN service application, focusing on troubleshooting and performance analysis. Achieved a 70\% performance improvement by identifying code hotspots and optimizing critical components through C++ refactoring.
-
-   \item {\bf Cloud Directory Service}\vspace{3pt}\\
-   Developed a directory service on the Synology C2 cloud platform from scratch, including surveying and designing product specifications. Built the service backend on Kubernetes and designed user-friendly tools for service accessibility.
-   Designed a user agent to download LDAP server data from the cloud to end users, providing local authentication services.
-   Implemented the SRP (Secure Remote Password) protocol as the authentication algorithm to ensure no user passwords are stored at the service backend.
+\item {\bf VPN Service Performance }\vspace{3pt}\\
+Boosted on-device VPN throughput 70\% by profiling CPU hotspots and refactoring C++ packet pipeline to zero-copy.
 
 \end{itemize}
 
-\vspace{0.2in}
+\vspace{1pt}
+{\bf Marvell Semiconductor - Hsinchu, Taiwan}  \hfill ARM Simulator Developer \textbar{} Oct 2011 - Jun 2014\vspace{3pt}\\
+
+\begin{itemize} \itemsep +6pt
+\item {\bf ARMv8 Architecture Simulator}\vspace{3pt}\\
+	Built an instruction-level ARMv8 simulator with 100\% ISA coverage and \textless{}1\% cycle deviation versus ARM Fast Model by creating a self-generating test framework, trimming silicon validation time by 40\%.
+
+\item {\bf ActionScript Virtual Machine Port}\vspace{3pt}\\
+Enabled Adobe ActionScript VM on ARM dev boards, resolving 50+ compatibility issues to pass 100\% regression suite
+\end{itemize}
+
+\vspace{0.1in}
 \section{\centerline{EDUCATION}}
 \noindent\rule[0.25\baselineskip]{\textwidth}{1pt}
 {\sl M.S., Computer Science \hspace{0.1in} \hfill Sep 2008 - Sep 2010}\vspace{3pt}\\
 {National Chiao Tung University} \hspace{0.1in} \hfill Hsinchu, Taiwan\vspace{3pt}\\
 {\bf Thesis:} File-Based Sharing For Dynamically Compiled Code on Dalvik Virtual Machine\vspace{3pt}\\
-{\bf Industry-Academia Collaboration Project:} Collaborated with IASolution to develop a project focused on converting Java bytecode to LLVM IR using the LLVM library.\\
-\\
-{\sl B.S., Computer Science \hspace{0.1in} \hfill Sep 2003 - Sep 2008}\vspace{3pt}\\
-{Fu Jen Catholic University} \hspace{0.1in} \hfill Taipei, Taiwan\vspace{3pt}\\
-
 \end{resume}
 \end{document}
